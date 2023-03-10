@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Table</title>
+    <style>
+      /* Tô màu nền cho bảng */
+      table {
+        background-color: rgb(12, 181, 237);
+      }
+
+      /* Tô màu nền cho hàng chẵn */
+      tr:nth-child(even) {
+        background-color: rgb(255, 251, 5);
+      }
+
+      /* Tô màu nền cho hàng lẻ */
+      tr:nth-child(odd) {
+        background-color: rgb(255, 251, 5);
+      } 
+      td {
+  width: 50px;
+  height: 50px;
+}
+      /* Canh giữa nội dung trong ô */
+      td {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1">
+      <thead>
+        
+        <tr>
+          
+          <th>Column 1</th>
+          <th>Column 2</th>
+          <th>Column 3</th>
+          <th>Column 4</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Row 1, Column 1</td>
+          <td>Row 1, Column 2</td>
+          <td>Row 1, Column 3</td>
+          <td>Row 1, Column 4</td>
+        </tr>
+        <tr>
+          <td>Row 2, Column 1</td>
+          <td>Row 2, Column 2</td>
+          <td>Row 2, Column 3</td>
+          <td>Row 2, Column 4</td>
+        </tr>
+        <tr>
+          <td>Row 3, Column 1</td>
+          <td>Row 3, Column 2</td>
+          <td>Row 3, Column 3</td>
+          <td>Row 3, Column 4</td>
+        </tr>
+        
+      </tbody>
+    </table>
+  </body>
+</html>

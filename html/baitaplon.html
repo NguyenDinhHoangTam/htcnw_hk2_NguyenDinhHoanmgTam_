@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px auto;
+        }
+
+        .wrapper {
+            width: 1089px;
+            height: 700px;
+            box-sizing: border-box; 
+            background-color: antiquewhite;
+        }
+
+        body {
+            background-image: url("E:\NguyenDinhHoangTam_21136141_DHCN17CTT_htcnw\img\background-1814372__340.webp");
+        }
+
+        header {
+            width: 1089px;
+            height: 150px; 
+            background-color: rgb(33, 209, 86); 
+            position: relative;
+        }
+
+        .top-menu {
+            height: 50px;
+            width: 600px;
+            position: absolute;
+            top: 70px;
+            right: 30px;
+        }
+
+        nav {
+            width: 1089px;
+            height: 50px;
+            background-color: rgb(224, 95, 175);
+        }
+
+        .content {
+            width: 1089px; 
+            height: 400px;
+            background-color: rgb(21, 49, 172);
+        }
+
+        aside {
+            width: 40%;
+            height: 400px;
+            float: left;
+            background-color: rgb(136, 149, 172);
+        }
+
+        section {
+            width: 60%;
+            height: 400px;
+            float: left;
+            background-color: rgb(65, 26, 156);
+        }
+
+        footer {
+            width: 1089px;
+            height: 200px; 
+            background-color: rgb(210, 231, 150);
+            position: relative;
+        }
+
+        .menu li {
+            height: 50px;
+            width: 150px;
+            line-height: 50px; 
+            list-style: none;
+            float: left;
+            background-color: teal; 
+            text-indent: 20px;
+        }
+
+        .menu li a {
+            text-decoration: none; 
+            color: yellow; 
+            font-weight: bolder;
+        }
+
+        .menu li:hover {
+            background-color: violet;
+        }
+
+        .top-menu li {
+            line-height: 50px; 
+            display: inline-flex; 
+            width: 90px;
+        }
+
+        #frm {
+            width: 100%;
+            height: 400px; 
+            background-color: rgb(194, 181, 224);
+        }
+
+        .lbl {
+            width: 30%;
+            height: 300px;
+            float: left;
+            background-color: rgb(194, 181, 224);
+            padding-left: 20px;
+        }
+
+        #h4 {
+            position: absolute;
+            text-align: center; 
+            top: 30px;
+            right: 400px;
+            color: sienna; 
+            text-shadow: 2px 3px 5px yellow;
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <header>
+
+            <h1 id="h1">TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP THANH PHƯƠNG</h1>
+
+            <h2 id="h2">KHOA CÔNG THÔNG TIN</h2>
+
+            <img src="E:\NguyenDinhHoangTam_21136141_DHCN17CTT_htcnw\img\31-12-2017-cong-bo-10-su-kien-cong-nghe-thong-tin-truyen-thong-tieu-bieu-nam-2017-22904cea-details.jpg"" alt="" srcset="" width="100%" height="100%">
+
+            <ul class="top-menu">
+                <li><a href="">FIT</a></li>
+                <li><a href="">DOAN TN</a></li>
+                <li><a href="">TTTHC</a></li>
+                <li><a href="">SE</a></li>
+                <li>
+                    <form action="" method="post" id="frm1">
+                        <input type="text" name="txtName" id="txtName" placeholder="Name">
+                        <button>Go</button>
+                    </form>
+                </li>
+            </ul>
+
+        </header>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="https://luh.edu.vn">HOME</a></li>
+                <li><a href="https://dichvu.iuh.edu.vn">SERVICES</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">HELP</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <aside></aside>
+            <section>
+                <form action="#" method="get" id="frm">
+                    <br>
+                    <div class="lbl">
+                        <label for="">Nhãn 1</label> <br> <br>
+                        <label for="">Nhãn 2</label> <br> <br>
+                        <label for="">nhan 3</label> <br> <br>
+                        <label for="">nhan 4</label> <br><br> 
+                        <label for="">nhan 5</label> <br> <br>
+                    </div>
+                    <div class="inp">
+                        <input type="text" name="id"><br><br>
+                        <input type="text" name="id"><br><br>
+                        <input type="text" name="id"><br><br> 
+                        <input type="text" name="id"> <br> <br>
+                        <input type="text" name=""> <br> <br>
+                    </div>
+                </form>
+            </section>
+        </div>
+        <img src="../img/background-1814372__340" alt="" srcset="" width="100%" height="100%">
+        <footer>
+            <div>
+                <h3 id="h3">@CopyRight: Ma so sinh vien: 123456789, Tran Van Nam</h3>
+                <h4 id="h4">DHKTPM17BTT</h4>
+            </div>
+        </footer>
+</body>
+</html>
